@@ -1,0 +1,168 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 下拉刷新 */
+.list_view.data-v-09cf6b56 {
+	margin-top: 50px;
+	padding: 10rpx 0;
+}
+.list_item.data-v-09cf6b56 {
+	background: #FFF;
+	padding: 20px 0;
+	border-bottom: 1px solid #eee;
+}
+.index.data-v-09cf6b56 {
+	height: 20px;
+	line-height: 20px;
+	top: 50%;
+	left: 8px;
+	color: #333333;
+	font-size: 14px;
+	margin-top: -10px;
+	text-align: center;
+}
+.icon.data-v-09cf6b56 {
+	left: 30px;
+	top: 50%;
+	margin-top: -32px;
+}
+.icon image.data-v-09cf6b56 {
+	width: 64px;
+	height: 64px;
+}
+.intro.data-v-09cf6b56 {
+	font-size: 12px;
+	margin-left: 110px;
+	margin-right: 92px;
+	color: #999;
+}
+.intro .title.data-v-09cf6b56 {
+	font-size: 14px;
+	color: #333;
+}
+.intro .btnhover.data-v-09cf6b56 {
+	background-color: #1e8e37;
+	-webkit-tap-highlight-color: transparent;
+}
+.buy.data-v-09cf6b56 {
+	width: 70px;
+	height: 30px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 31px;
+	margin-top: -15px;
+	color: white;
+	border-radius: 5px;
+	right: 10px;
+	top: 50%;
+	background: #24aa42;
+}
+

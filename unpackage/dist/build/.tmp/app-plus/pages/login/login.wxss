@@ -1,0 +1,88 @@
+
+page.data-v-0429a7c0,page.data-v-0429a7c0{
+	height:100%;
+	margin:0;
+}
+page.data-v-0429a7c0{
+	height: 100%;
+}
+.loginbg.data-v-0429a7c0{
+	height: 100vh;
+	background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1552032692809&di=71979ff83229a29d96a8537732b14077&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2Fd66b99cedb72c6af10571a93064f4565b85d64044625f-E6xIDb_fw658");
+	background-size:cover;
+	/* background-position: top; */
+	position: fixed;
+    width: 100%;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack:center;
+	-webkit-justify-content:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
+}
+.loginCon.data-v-0429a7c0{
+	/* padding: 0 10px; */
+}
+.logo.data-v-0429a7c0{
+	padding: 40px 0;
+	text-align: center;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+.logo image.data-v-0429a7c0{
+	width: 156px;
+	height: 110px;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+.logo.edi.data-v-0429a7c0{
+	padding: 10px 0;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+.logo.edi image.data-v-0429a7c0{
+	width: 78px;
+	height: 55px;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+.inp .inputCon.data-v-0429a7c0{
+	height: 40px;
+	width: 100%;
+	margin-top: 20px;
+	background: white;
+	line-height: 40px;
+	border-radius: 8px;
+}
+.inp image.data-v-0429a7c0{
+	height: 30px;
+	width: 30px;
+	margin: 5px;
+	display: inline-block;
+}
+.inp ._input.data-v-0429a7c0{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 40px;
+	width: 260px;
+	height: 40px !important;
+}
+.registe.data-v-0429a7c0{
+	margin: 20px 4px 20px 0;
+	color: white;
+	text-align: right;
+	font-size: 14px;
+}
+.loginBtn ._button.data-v-0429a7c0{
+	background: #23aa43;
+	color: white;
+	border-radius: 8px;
+}
+

@@ -1,0 +1,4 @@
+<import src="/component/uni-load-more.vue.wxml" />
+<import src="/component/uni-rate/uni-rate.vue.wxml" />
+<import src="/component/uni-icon/uni-icon.vue.wxml" />
+

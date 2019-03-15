@@ -1,0 +1,146 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/main/main",
+            "style" : {
+                "navigationStyle" : "精选",
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/list/list",
+            "style" : {
+                "navigationStyle" : "榜单",
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/user/user",
+            "style" : {
+                "navigationBarTitleText" : "我的",
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/message/message",
+            "style" : {
+                "navigationBarTitleText" : "消息通知"
+            }
+        },
+        {
+            "path" : "pages/about/about",
+            "style" : {
+                "navigationBarTitleText" : "关于我们"
+            }
+        },
+        {
+            "path" : "pages/buy/buy",
+            "style" : {
+                "navigationBarTitleText" : "购买"
+            }
+        },
+        {
+            "path" : "pages/registe/registe",
+            "style" : {
+                "navigationBarTitleText" : "注册"
+            }
+        },
+        {
+            "path" : "pages/version_update/version_update",
+            "style" : {
+                "navigationBarTitleText" : "版本更新"
+            }
+        },
+        {
+            "path" : "pages/buy_success/buy_success",
+            "style" : {
+                "navigationBarTitleText" : "购买成功"
+            }
+        },
+        {
+            "path" : "pages/change_aver/change_aver",
+            "style" : {
+                "navigationBarTitleText" : "修改头像"
+            }
+        },
+        {
+            "path" : "pages/comments/comments",
+            "style" : {
+                "navigationBarTitleText" : "评论"
+            }
+        },
+        {
+            "path" : "pages/detail/detail",
+            "style" : {
+                "navigationBarTitleText" : "详情",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "transparent"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/search/search",
+            "style" : {
+                "navigationBarTitleText" : "搜索"
+            }
+        },
+        {
+            "path" : "pages/login/login",
+            "style" : {
+                "navigationBarTitleText" : "登陆"
+            }
+        },
+        {
+            "path" : "pages/my_game/my_game",
+            "style" : {
+                "navigationBarTitleText" : "我的游戏"
+            }
+        },
+        {
+            "path" : "pages/message/detail/detail",
+            "style" : {
+                "navigationBarTitleText" : "详情"
+            }
+        }
+    ],
+    "tabBar" : {
+        "color" : "#7a7e83",
+        "selectedColor" : "#24aa42",
+        "backgroundColor" : "#ffffff",
+        "list" : [
+            {
+                "pagePath" : "pages/main/main",
+                "text" : "精选",
+                "iconPath" : "static/tabbarImg/jingxuan_hui.png",
+                "selectedIconPath" : "static/tabbarImg/jingxuan_liang.png"
+            },
+            {
+                "pagePath" : "pages/list/list",
+                "text" : "榜单",
+                "iconPath" : "static/tabbarImg/bangdan_hui.png",
+                "selectedIconPath" : "static/tabbarImg/bangdan_liang.png"
+            },
+            {
+                "pagePath" : "pages/user/user",
+                "text" : "我的",
+                "iconPath" : "static/tabbarImg/wode_hui.png",
+                "selectedIconPath" : "static/tabbarImg/wode_liang.png"
+            }
+        ]
+    },
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "uni-app",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8"
+    }
+}

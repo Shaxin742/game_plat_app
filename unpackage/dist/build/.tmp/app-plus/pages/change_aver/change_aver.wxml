@@ -1,0 +1,2 @@
+<import src="./change_aver.vue.wxml" />
+    <template is="034b1b4c" data="{{ ...$root['0'], $root }}"/>

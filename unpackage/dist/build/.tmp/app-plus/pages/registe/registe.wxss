@@ -1,0 +1,59 @@
+
+.registCon.data-v-0911ea06{
+	margin: 20px 10px;
+}
+.getver.data-v-0911ea06{
+	margin: 20px 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.getver .ver.data-v-0911ea06{
+	-webkit-box-flex: 5;
+	-webkit-flex: 5;
+	    -ms-flex: 5;
+	        flex: 5;
+}
+.getver .verbtn.data-v-0911ea06{
+	-webkit-box-flex: 2;
+	-webkit-flex: 2;
+	    -ms-flex: 2;
+	        flex: 2;
+	margin-left: 10px;
+}
+.getver .verbtn ._button.data-v-0911ea06{
+	font-size: 14px;
+	height: 48px;
+	padding: 0;
+	text-align: center;
+	line-height: 48px;
+	color: #979797;
+}
+.registCon ._input.data-v-0911ea06{
+	height: 50px;
+	line-height: 50px;
+	background: #f1f1f1;
+	color: #333;
+	font-size: 15px;
+	padding: 0 20px;
+	border-radius: 8px;
+}
+.ensure.data-v-0911ea06{
+	padding: 20px 0;
+	font-size: 14px;
+	color: #979797;
+}
+.ensure checkbox.data-v-0911ea06{
+	height: 16px;
+}
+.confirm ._button.data-v-0911ea06{
+	color: white;
+	background: #23aa43;
+	border-radius: 8px;
+	border:none;
+}
+.service.data-v-0911ea06{
+	color: #fb6d0e;
+}
+

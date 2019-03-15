@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/list/list",
+    "pages/user/user",
+    "pages/message/message",
+    "pages/about/about",
+    "pages/buy/buy",
+    "pages/registe/registe",
+    "pages/version_update/version_update",
+    "pages/buy_success/buy_success",
+    "pages/change_aver/change_aver",
+    "pages/comments/comments",
+    "pages/detail/detail",
+    "pages/search/search",
+    "pages/login/login",
+    "pages/my_game/my_game",
+    "pages/message/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#7a7e83",
+    "selectedColor": "#24aa42",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "精选",
+        "iconPath": "static/tabbarImg/jingxuan_hui.png",
+        "selectedIconPath": "static/tabbarImg/jingxuan_liang.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "榜单",
+        "iconPath": "static/tabbarImg/bangdan_hui.png",
+        "selectedIconPath": "static/tabbarImg/bangdan_liang.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/tabbarImg/wode_hui.png",
+        "selectedIconPath": "static/tabbarImg/wode_liang.png"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "诠星游戏平台"
+}

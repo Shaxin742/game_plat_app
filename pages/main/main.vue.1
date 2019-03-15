@@ -1,0 +1,155 @@
+<template>
+	<view>
+		<view class="status_bar">  
+			<view class="top_view"></view>  
+		</view>  
+		<view class="content mt40">
+			woshi
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			};
+		},
+		onNavigationBarButtonTap() {  
+			console.log("点击了自定义按钮"); 
+// 			 nTitle.addEventListener('click', function(){
+// 				 alert(1)
+// 			 }, false);
+		},
+		onLoad() {
+			this.startcreatview()
+		},
+		methods:{
+			startcreatview(){  
+                var s = this;  
+                s.TitleTimer = setTimeout(function() {  
+                    s.createView();  
+                }, 100);//具体缓迟时间可以按需设置  
+            },  
+			createView() {  
+                clearTimeout(this.TitleTimer);  
+                var s = this;  
+                var pages = getCurrentPages();  
+                var page = pages[pages.length - 1];  
+                var currentWebview = page.$getAppWebview();  
+                var nTitle = currentWebview.getTitleNView();  
+                    nTitle.draw(  
+                        [{  
+                                "tag" : "img",  
+								"src" : "/static/tabbarImg/logo.png",  
+								"position" : {  
+									"left" : "10px",  
+									"top" : "5px",  
+									"width" : "135px",  
+									"height" : "30px"  
+								} 
+                            },
+							{  
+								"tag": "rect",  
+								"id": "rect",  
+								"color": "#EEEEEE",  
+								"position": {  
+									"left": "160px",  
+									"right": "40px",  
+									"top": "7px",  
+									"bottom": "7px"  
+								},  
+								"rectStyles": {  
+									"color": "#f6f6f6",  
+									"radius": "30px",  
+									"borderColor": "#EEEEEE"  
+								}  
+							},  
+//                             {  
+//                                 "tag": "font",  
+//                                 "id": "font",  
+//                                 "text": "\ue466",  
+//                                 "position": {  
+//                                     "left": "160px",  
+//                                     "width": "30px",  
+//                                     "top": "7px",  
+//                                     "bottom": "7px"
+//                                 },  
+//                                 "textStyles": {  
+//                                     "size": "13px",  
+//                                     "fontSrc": "/static/uni.ttf",  
+//                                     "color": "#999"
+//                                 }  
+//                             },  
+                            {  
+                                "tag": "input",  
+                                "id": "input",  
+                                "position": {  
+                                    "left": "160px",  
+                                    "right": "40px",  
+                                    "top": "7px",  
+                                    "bottom": "7px"  
+                                },  
+                                "inputStyles": {  
+                                    "placeholder": "关键字搜索",  
+                                    "borderRadius": "30px",  
+                                    "borderWidth": "0px",  
+                                    "fontSize": "13px",  
+                                    "type": "search",  
+                                    "fontSrc": "/static/uni.ttf",  
+                                    "color": "#999",  
+                                    onComplete: function(e) {  
+                                        console.log('点击搜索执行' + e.text)  
+                                    },  
+                                    onFocus: function(e) {  
+                                        console.log('获得焦点')  
+                                    },  
+                                    onBlur: function(e) {  
+                                        console.log('失去焦点')  
+                                    }  
+                                }  
+                            }, 
+							{  
+                                "tag": "font",  
+                                "id": "font",  
+                                "text": "\ue466",  
+                                "position": {  
+                                    "right": "4px",  
+                                    "width": "30px",  
+                                    "top": "7px",  
+                                    "bottom": "7px"
+                                },  
+                                "textStyles": {  
+                                    "size": "28px",  
+                                    "fontSrc": "/static/uni.ttf",  
+                                    "color": "#000"
+                                },
+// 								onClick: function(e) {  
+// 								    console.log('点击搜索执行' + e.text)  
+// 									var fom = document.getelementbyid("input")
+// 									console.log(fom)
+// 								},
+                            }, 
+                        ]  
+                    );  
+            },  
+		}
+	}
+</script>
+
+<style>
+	.status_bar {  
+		height: var(--status-bar-height);  
+		width: 100%;  
+		background-color: #F8F8F8;  
+	}  
+	.top_view {  
+		height: var(--status-bar-height);  
+		width: 100%;  
+		position: fixed;  
+		background-color: #F8F8F8;  
+		top: 0;  
+		z-index: 999;  
+	}
+</style>

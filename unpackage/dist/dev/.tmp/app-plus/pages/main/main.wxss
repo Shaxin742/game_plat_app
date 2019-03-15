@@ -1,0 +1,161 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 下拉刷新 */
+.list_view.data-v-3ad012da {
+	margin-top: 50px;
+	padding:10rpx 0;
+}
+.list_item.data-v-3ad012da {
+	background:#FFF;
+	width: 680rpx;
+	margin: 0 auto 30px;
+}
+.list_item .item_bg image.data-v-3ad012da{
+	width: 680rpx;
+	height: 510rpx;
+}
+.list_item .item_content.data-v-3ad012da{
+	margin: 10px 0;
+	color: #999;
+	display: block;
+	font-size: 14px;
+}
+.list_item .item_bg.data-v-3ad012da{
+	position: relative;
+}
+.list_item .item_bg .item_intro.data-v-3ad012da{
+	border-bottom: 10px;
+	width: 100%;
+}
+.list_item .item_bg .item_intro .item_icon.data-v-3ad012da{
+	left: 20px;
+	bottom: 10px;
+}
+.list_item .item_bg .item_intro .item_icon image.data-v-3ad012da{
+	height: 40px;
+	width: 40px;
+	border: 2px solid #FFFFFF;
+	border-radius: 6px;
+}
+.list_item .item_bg .item_intro .item_name.data-v-3ad012da{
+	left: 80px;
+	bottom: 15px;
+	color: #fff;
+}
+.list_item .item_bg .item_intro .item_name .name.data-v-3ad012da{
+	font-size: 16px;
+	margin-bottom: 3px;
+}
+.list_item .item_bg .item_intro .item_name .type.data-v-3ad012da{
+	font-size: 12px;
+	height: 20px;
+	color: white;
+	opacity: 0.7;
+}
+.type text.data-v-3ad012da{
+	padding: 0 2px;
+}
+.type:last-child text.data-v-3ad012da{
+	display: none;
+}
+.list_item .item_bg .item_intro .item_place.data-v-3ad012da{
+	right: 20px;
+	bottom: 15px;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	width: 60px;
+}
+.list_item .item_bg .item_intro .item_place image.data-v-3ad012da{
+	width: 25px;
+	height: 25px;
+	opacity: 1;
+}
+.list_item .item_bg .item_intro .item_place .place_tp.data-v-3ad012da{
+	opacity: 0.7;
+}
+

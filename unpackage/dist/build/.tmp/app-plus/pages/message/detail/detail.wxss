@@ -1,0 +1,68 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 详情 */
+.detail_con.data-v-3422cdaa{
+	padding:  40rpx;
+	/* border-bottom: 1px solid #eeeeee; */
+}
+.detail_con_title.data-v-3422cdaa{
+	font-size: 40rpx;
+	margin-bottom: 28rpx;
+}
+.detail_imgs.data-v-3422cdaa{
+	width: 620rpx;
+	margin: 0 auto;
+}
+.detail_imgs image.data-v-3422cdaa{
+	width: 620rpx;
+	padding-bottom: 18rpx;
+}
+.detail_desp.data-v-3422cdaa{
+	font-size: 28rpx;
+	line-height: 50rpx;
+	text-indent: 2em;
+}
+

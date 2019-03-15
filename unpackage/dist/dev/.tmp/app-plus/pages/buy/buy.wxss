@@ -1,0 +1,66 @@
+
+page.data-v-58ea35c1{
+	height: 100%;
+}
+.bg.data-v-58ea35c1{
+	background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1552032692809&di=71979ff83229a29d96a8537732b14077&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2Fd66b99cedb72c6af10571a93064f4565b85d64044625f-E6xIDb_fw658");
+	position: fixed;
+	height: 100%;
+	width: 100%;
+}
+.buy_logo.data-v-58ea35c1{
+	width: 259rpx;
+	height: 186rpx;
+	margin: 46rpx auto;
+}
+.buy_logo image.data-v-58ea35c1{
+	width: 259rpx;
+	height: 186rpx;
+}
+.buy_tel.data-v-58ea35c1{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 0 70rpx 46rpx;
+	background: rgba(255,255,255,0.4);
+	padding: 13px 12px;
+	border-radius: 14rpx;
+}
+.buy_tel image.data-v-58ea35c1{
+	/* flex: 1; */
+	width: 23px;
+	height: 25px;
+}
+.buy_tel ._input.data-v-58ea35c1{
+	border-bottom: 1px solid #a1b1d0;
+	margin-left: 20rpx;
+	-webkit-box-flex: 4;
+	-webkit-flex: 4;
+	    -ms-flex: 4;
+	        flex: 4;
+	color: white;
+}
+.buy_intro.data-v-58ea35c1{
+	margin: 24rpx 70rpx;
+	padding: 31rpx;
+	background: rgba(255,255,255,0.4);
+	color: white;
+	border-radius: 14rpx;
+}
+.buy_intro .intro_title.data-v-58ea35c1{
+	font-size: 40rpx;
+	margin-bottom: 20rpx;
+}
+.buy_intro .intro_con.data-v-58ea35c1{
+	font-size: 30rpx;
+	text-indent: 2em;
+	line-height: 60rpx;
+}
+.buy_submit ._button.data-v-58ea35c1{
+	background: #23aa43;
+	color: white;
+	border: none;
+	margin: 70rpx 172rpx 0;
+}
+

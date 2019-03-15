@@ -1,0 +1,101 @@
+.status_bar {  
+	height: var(--status-bar-height);  
+	width: 100%;  
+	background-color: #fff;
+}
+.top_view {  
+	height: var(--status-bar-height);  
+	width: 100%;  
+	position: fixed;  
+	background-color: #fff;  
+	top: 0;  
+	z-index: 999;
+}
+.title_bar{
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	background: white;
+	top: var(--status-bar-height);
+	border-bottom:1px solid #eeeeee ;
+	border-top:1px solid #eeeeee ;
+}
+.title_bar .title_logo{
+	height: 40px;
+	position: absolute;
+	left: 10px;
+	top: 9px;
+}
+.title_bar .title_logo image{
+	height: 32px;
+	width: 136px;
+}
+.title_bar .search_input{
+	width: 160px;
+	height: 28px;
+	position: absolute;
+	right: 40px;
+	background: #f3f3f3;
+	border-radius: 14px;
+	overflow: hidden;
+	top: 10px;
+}
+.title_bar .search_input ._input{
+	height: 28px;
+	width: 120px;
+	font-size: 14px;
+	color: #333;
+	padding-left: 10px;
+	line-height: 28px;
+}
+.title_bar .search_icon{
+	position: absolute;
+	right: 8px;
+	top: 15px;
+}  
+/*每个页面公共css */
+.mt40{
+	margin-top: 40px;
+}
+.mb40{
+	margin-bottom: 40px;
+}
+.mb5{
+	margin-bottom: 5px;
+}
+.wid100{
+	width: 100% !important;
+	height: 100% !important;
+}
+.posabs{position: absolute;}
+.posrela{position: relative;}
+.fl{float: left;}
+.fr{float: right;}
+.clearfix{overflow:auto;_height:1%}
+.uni-ellipsis{overflow: hidden; white-space: nowrap; -o-text-overflow: ellipsis; text-overflow: ellipsis;}
+.alignRight{text-align: right;}
+.alignLeft{text-align: left;}
+.alignCenter{text-align: center;}
+.col333{
+	color: #333;
+}
+.col999{
+	color: #999;
+}
+.col9a{
+	color: #9a9a9a;
+}
+@font-face {
+	font-family: uniicons;
+	font-weight: normal;
+	font-style: normal;
+	src: url('https://img-cdn-qiniu.dcloud.net.cn/fonts/uni.ttf') format('truetype');
+}
+.bold{
+	font-weight: bold;
+}
+.uni-page-body{
+	height: 100%;
+}
+

@@ -1,0 +1,18 @@
+
+.textCon.data-v-cbbf9c1a{
+	padding: 20rpx;
+	border: 1px solid #eee;
+}
+.commonts_area.data-v-cbbf9c1a{
+	width: 100%;
+}
+.rate.data-v-cbbf9c1a{
+	margin: 20rpx 0;
+	color: #333;
+	font-size: 30rpx;
+}
+.sub_btn.data-v-cbbf9c1a{
+	background: #23aa43;
+	color: white;
+}
+
